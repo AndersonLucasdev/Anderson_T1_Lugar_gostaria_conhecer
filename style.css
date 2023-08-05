@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #111111;
+    font-family: 'Montserrat', sans-serif;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-logo {
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    background-size: 90% 60%;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-navbar {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.container-navbar > li {
+    list-style: none;
+}
+
+.container-navbar > li > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.container-navbar li a:hover{
+    padding-bottom: 7px;
+    border-bottom: 2px solid #FF1654;
+}
+
+.pesquisa {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sair {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
